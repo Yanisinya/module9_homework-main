@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Пример использования localStorage</h1>
+        <h2>Введите номер страницы и лимит для вывода картинок</h2>
+        <div class="form">
+            <div class="inputList">
+                <label class="inputList__label">Номер страницы (1-10):
+                    <input type="number" class="inputList__input">
+                </label>
+                <label class="inputList__label">Лимит (1-10):
+                    <input type="number" class="inputList__input">
+                </label>
+            </div>
+            <p class="inputList__error-message"></p>
+            <button class="btnRequest">Запрос</button>
+        </div>
+        <section>
+            <h2>Результат запроса</h2>
+            <div class="result"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

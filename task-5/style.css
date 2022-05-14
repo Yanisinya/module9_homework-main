@@ -1,0 +1,65 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main { margin-left: 20px; }
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 1.5em;
+}
+
+h2 { font-size: 1.3em; }
+
+.form { 
+  width: 470px;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputList { display: flex; }
+
+.inputList__label { 
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.inputList__input {
+  height: 20px;
+  margin-left: 5px;
+  width: 60px;
+}
+
+.inputList__error-message {
+  font-size: 0.9em;
+  color: rgb(233, 129, 129);
+}
+
+.btnRequest {
+  width: 160px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.result {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.result-image { margin: 0 10px 10px 0; }
+
+.result-image__img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.result-image__signature {
+  margin: 0;
+  font-size: 0.8em;
+}
